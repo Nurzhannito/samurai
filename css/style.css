@@ -1,98 +1,160 @@
-.menu{
-    justify-content: end;
-}
-
-.container-fluid,
+.navbar-brand,
+.nav-link,
 .big,
-.middle_text,
-.end-info,
-.ending,
-.card-link{
+.card-link,
+.second-title,
+.third-title
+{
     text-transform: capitalize;
 }
 
-.card-header{
-    font-weight: 700;
+.lower
+{
+    text-transform: lowercase;
+    font-weight: bold;
 }
 
-.card-link, 
-.last-link{
-    text-decoration: none;
+.nav-link:hover
+{
+    background-color: #7b7b7b;
+    text-decoration: darkblue;
+}
+
+.promo-info
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-link
+{
     color: black;
-    font-size: 15px;
-}
-
-.ident{
-    margin-bottom: 5px;
-}
-
-.card-link{
-    border: 1px solid silver;
-    padding: 5px;
+    padding: 5px 5px;
+    border: 1px solid darkgrey;
     border-radius: 5px;
 }
 
-.promo-heading{
-    padding-top: 50px;
+.card-header
+{
+    font-weight: 700;
 }
 
-.img-fluid, 
-.imaging{
-   width: 100%;
+.works,
+.last-promo
+{
+    background-color: #e0e0e0;  
 }
 
-.middle_text{
-    padding-top: 80px;
+.works{
+    margin-bottom: 50px;
 }
 
-.middle-image{
-    padding-bottom: 30px;
+.second-title,
+.third-title
+{
+    font-size: 30px;
 }
 
-.link-image{
+.link-image
+{
     display: inline-block;
+    position: relative; 
+    overflow: hidden; 
+}
+
+.work-image
+{
     width: 100%;
+    padding: 5px 0;
+}
+
+.magic
+{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    padding-top: 80px;
+    text-align: center;
+    opacity: 0;
+    transform: scale(0);
+    top: 0;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.link-image:hover .magic
+{
+    display: block;
+    opacity: 1;
+    top: 0;
+    transform: scale(1);
+}
+
+.link-image,
+.promo-image
+{
+    width: 100%;  
 }
 
 .card-title,
 .card-menu,
 .card-text,
-.last,
-.ending{
-    font-size: 12px;
+.forth-title,
+.ending
+{
+    font-size: 15px;
     font-weight: normal;
 }
 
-.card-body, 
-.last-link{
-    background-color: white;
-}
-
-.the-last, 
-.last-link{
+.last-box
+{
     border: 1px solid silver;
     padding: 15px 5px 15px 10px;
     background-color: #f0f1f2;
     border-radius: 5px;
 }
 
-.last-link{
-    background-color: white;
-    padding: 5px 100px;
-    left: 30px;
-    vertical-align: middle;
-    margin: 10px 0 0 0 ;
+.block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ending{
+.last-link
+{
+    color: black;
+    padding: 5px 75px;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.last-link:hover
+{
+    text-decoration: none;
+}
+
+.ending
+{
     padding: 20px 0;
 }
 
-
-
-
-
-
+button
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+    margin: 5px 5px 20px 5px;
+}
 
 
 
